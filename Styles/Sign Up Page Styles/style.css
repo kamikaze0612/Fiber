@@ -1,0 +1,157 @@
+.container {
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+}
+/* *************************************** */
+/* FORM INPUT SECTION */
+/* *************************************** */
+
+.form-box {
+  width: 70%;
+  margin: 0 auto;
+  padding: 4.8rem 0;
+}
+
+.logo-link:link,
+.logo-link:visited {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 6.4rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 2.4rem;
+}
+
+.form-box input:not(:first-child) {
+  width: 100%;
+  padding: 1.6rem;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  border: 1px solid #868e96;
+  border-radius: 5px;
+  margin-bottom: 3.2rem;
+}
+
+.form-box .secondary-heading {
+  margin-bottom: 4.8rem;
+}
+
+.form-box input::placeholder {
+  color: #868e96;
+}
+
+label {
+  font-size: 2rem;
+  color: #212529;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  display: block;
+}
+
+.checkbox-box {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+button[type="submit"] {
+  width: 100%;
+  display: block;
+  background-color: #4717c9;
+  border: none;
+  color: #fff;
+  padding: 2.4rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 2.4rem;
+}
+
+input[type="checkbox"] {
+  width: 2rem;
+  height: 2rem;
+}
+
+.checkbox-text {
+  font-weight: 400;
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  margin-bottom: 3.2rem;
+}
+
+.checkbox-text .link:link,
+.checkbox-text .link:visited {
+  color: #4717c9;
+  border-bottom: 2px solid currentColor;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 1.6rem;
+}
+
+.sign-in-text {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.sign-in-text .link:link,
+.sign-in-text .link:visited {
+  color: #4717c9;
+}
+
+.sign-in-text .link:hover,
+.sign-in-text .link:active {
+  color: #6c45d4;
+}
+
+/* *************************************** */
+/* IMAGE SECTION */
+/* *************************************** */
+
+.img-box {
+  background-color: #4717c9;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up-img {
+  width: 80%;
+}
+
+.img-box .secondary-heading {
+  color: #fff;
+  display: inline-block;
+}
+
+.sign-up-text-box {
+  text-align: center;
+}
+
+.img-text {
+  font-size: 2rem;
+  color: #d4d4d4;
+  width: 60%;
+  display: inline-block;
+  line-height: 1.6;
+}
+
+.bubble-box {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.bubble-btn {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 50%;
+  background-color: #c2c2c2d0;
+}
+
+.bubble-btn.active {
+  background-color: #fff;
+}

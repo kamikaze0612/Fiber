@@ -1,0 +1,247 @@
+/* *************************************** */
+/* BELOW 1312 PIXELS (82em) */
+/* *************************************** */
+
+@media (max-width: 82em) {
+  .header .container {
+    padding: 3.2rem 2.4rem;
+  }
+  .container {
+    padding: 0 2.4rem;
+  }
+}
+
+/* *************************************** */
+/* BELOW 1120 PIXELS (70em) */
+/* *************************************** */
+
+@media (max-width: 70em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* *************************************** */
+/* BELOW 944 PIXELS (59em) */
+/* *************************************** */
+
+@media (max-width: 59em) {
+  html {
+    font-size: 8px;
+  }
+
+  .primary-heading {
+    font-size: 4.4rem;
+  }
+
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+
+  .header .container {
+    gap: 0;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .account-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  .hero-icon {
+    height: 16px;
+    width: 16px;
+  }
+
+  .rating-text,
+  .hero-text,
+  .hero-list-item,
+  .subheading,
+  .feature-text,
+  .cta-text,
+  .testimonial-text,
+  .footer-text,
+  .link:link,
+  .link:visited,
+  .btn-link:link,
+  .btn-link:visited {
+    font-size: 1.8rem;
+  }
+
+  .feature-title {
+    font-size: 1.6rem;
+  }
+
+  .section-cta .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer .container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .footer-logo-box {
+    grid-column: 1 / span 2;
+  }
+
+  .footer-links-box {
+    justify-self: start;
+  }
+}
+
+/* *************************************** */
+/* BELOW 768 PIXELS (48em) */
+/* *************************************** */
+
+@media (max-width: 48em) {
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-box {
+    display: flex;
+    gap: 2.4rem;
+  }
+
+  .account-box {
+    display: flex;
+    gap: 2.4rem;
+  }
+
+  .section-hero {
+    padding-top: 0;
+  }
+
+  .section-hero .container {
+    grid-template-columns: 1fr;
+  }
+
+  .section-cta .container {
+    padding: 3.2rem 0 3.2rem 4.8rem;
+  }
+  .hero-img-box {
+    grid-row: 1;
+  }
+
+  .hero-img-box picture {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .section-features .secondary-heading {
+    width: 80%;
+  }
+}
+
+/* *************************************** */
+/* BELOW 520 PIXELS (32.5em) */
+/* *************************************** */
+
+@media (max-width: 32.5em) {
+  .section-hero,
+  .section-features,
+  .section-cta,
+  .section-testimonials,
+  .footer {
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
+  }
+  .primary-heading,
+  .secondary-heading {
+    width: 80%;
+  }
+  .hero-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+    margin-bottom: 2.4rem;
+  }
+
+  .btn-link:link,
+  .btn-link:visited {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .section-features .features {
+    grid-template-columns: 1fr;
+  }
+
+  .section-cta .container {
+    grid-template-columns: 1fr;
+    padding: 4.8rem 3.2rem 0 3.2rem;
+  }
+
+  .cta-img-box {
+    padding: 0;
+  }
+
+  .section-testimonials .container {
+    flex-direction: column;
+  }
+
+  .testimonial-box {
+    flex: 0;
+  }
+
+  .footer .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 999;
+  }
+
+  .nav-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.938);
+    transition: all 0.4s ease;
+    transform: translateX(100%);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .nav-box {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-links,
+  .account-box {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+}

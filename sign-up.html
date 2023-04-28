@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Styles/Sign Up Page Styles/style.css" />
+    <link rel="stylesheet" href="./Styles/general.css" />
+    <link rel="stylesheet" href="./Styles/Sign Up Page Styles/queries.css" />
+    <title>Fiber: Sign Up</title>
+  </head>
+  <body>
+    <main>
+      <div class="container grid">
+        <div class="form-box">
+          <p class="logo-title">
+            <a href="./index.html" class="logo-link">Fiber</a>
+          </p>
+          <h2 class="secondary-heading">Create Your Fiber Account</h2>
+          <form class="sign-up-form" action="post">
+            <label for="user-name">Your Name</label>
+            <input id="user-name" required placeholder="John Doe" type="text" />
+            <label for="email">E-Mail</label>
+            <input
+              id="email"
+              required
+              placeholder="john@example.com"
+              type="email"
+            />
+            <label for="password">Password</label>
+            <input
+              id="password"
+              required
+              placeholder="At least 8 characters"
+              type="password"
+            />
+            <label class="checkbox-text" for="terms-conditions"
+              ><input id="terms-conditions" required type="checkbox" />
+              <span
+                >By creating an account on Fiber, you agree to the
+                <a href="#" class="link"> Terms & Conditions</a></span
+              ></label
+            >
+            <button type="submit">Create Fiber Account</button>
+          </form>
+          <p class="sign-in-text">
+            Already have an account? <a href="#" class="link">Sign In</a>
+          </p>
+        </div>
+        <div class="img-box">
+          <img
+            class="sign-up-img"
+            src="./Assets/Sign Up Image.png"
+            alt="Screenshot of Fiber's premade template."
+          />
+          <div class="sign-up-text-box">
+            <h2 class="secondary-heading">Unparalleled Templates</h2>
+            <p class="img-text">
+              Crafted by a team of professional designers, our templates are
+              unparalleled in the market.
+            </p>
+          </div>
+          <div class="bubble-box">
+            <button class="bubble-btn active"></button>
+            <button class="bubble-btn"></button>
+            <button class="bubble-btn"></button>
+            <button class="bubble-btn"></button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

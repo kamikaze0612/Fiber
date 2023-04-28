@@ -1,0 +1,64 @@
+/* *************************************** */
+/* BELOW 1280 PIXELS (90em) */
+/* *************************************** */
+@media (max-width: 80em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* *************************************** */
+/* BELOW 1000 PIXELS (62.5em) */
+/* *************************************** */
+@media (max-width: 62.5em) {
+  .container {
+    height: 100vh;
+    grid-template-columns: 1fr;
+    padding: 3.2rem 0;
+  }
+
+  .img-box {
+    display: none;
+  }
+
+  .form-box {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* *************************************** */
+/* BELOW 424 PIXELS (26.5em) */
+/* *************************************** */
+@media (max-width: 26.5em) {
+  html {
+    font-size: 8px;
+  }
+
+  .container {
+    padding: 1.6rem 0;
+  }
+
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+
+  .logo-title,
+  .form-box input:not(:first-child),
+  label,
+  button[type="submit"],
+  .sign-in-text {
+    font-size: 1.8rem;
+  }
+
+  .checkbox-text .link:link,
+  .checkbox-text .link:visited {
+    font-size: 1.8rem;
+    margin: 0;
+    display: inline;
+  }
+
+  .checkbox-text {
+    line-height: 1.6;
+  }
+}
